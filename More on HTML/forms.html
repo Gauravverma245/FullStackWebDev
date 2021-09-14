@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text">	Displays a single-line text input field
+    <br>
+    <input type="radio">	Displays a radio button (for selecting one of many choices)
+    <br>
+    <input type="checkbox">	Displays a checkbox (for selecting zero or more of many choices)
+    <br>
+    <input type="submit">	Displays a submit button (for submitting the form)
+    <br>
+    <input type="button">	Displays a clickable button
+    <br>
+    <input>
+    <br>
+    <input type = "password">
+    <br>
+    <input type="email">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--* 1-The <label> tag defines a label for many form elements. -->
+    <!--* 2-The <label> element is useful for screen-reader users,   -->
+    <!--* because the screen-reader will read out loud the label when the user focus on the input element. -->
+    <!-- TODO Important 3-The for attribute of the <label> tag should be equal to the id attribute of  -->
+    <!--* the <input> element to bind them together. -->
+
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+      </form>
+
+      <!-- ! A form with radio buttons: -->
+      <br>
+      <br>
+      <br>
+      <br>
+      <p>Choose your favorite Web language:</p>
+      <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+      </form>
+
+
+      <!-- ! A form with checkboxes: -->
+
+        <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+        </form>
+
+        <br>
+        <br>
+        
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+          </form> 
+          
+          <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+          <br>
+          <form action = "http://google.com">
+            <label for="q">This is google search</label><br>
+            <input name="q">
+            <button type ="submit">Search</button>
+        </form>
+    
+
+</body>
+</html>
