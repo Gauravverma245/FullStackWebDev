@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- padding is the extra space created inside some HTML elements -->
+<!-- padding is space between content and the border of element -->
+<body>
+    <table border = "1" cellspacing = "10" cellpadding = "10">
+        <tr>
+            <td>This is row1 data1</td>
+            <td>This is row1 data2</td>
+            <td>This is row1 data3</td>
+            <td rowspan="2">This is row1 data4</td>
+        </tr>
+
+        <!-- <tr> is used to create new row and <td> is used to create row item(or column) -->
+        <!-- colspan is used to take space of number of colums mentioned in colspan = "x", here -->
+        <!-- x is number of colums space it would take -->
+        <!-- similar is the working of rowspan -->
+        <!-- Important point- Both rowspan and colspan are applied on <td> tag. -->
+        <tr>
+            <!-- align will make the data to desired place like- left, right, center -->
+            <td colspan="2" align="center">This is row2 data1</td>
+            <td>This is row2 data2</td>
+
+        </tr>
+    </table>
+</body>
+</html>
