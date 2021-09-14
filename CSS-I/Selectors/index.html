@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS-Selectors.css">
+</head>
+<body>
+
+    <!-- if we specify two class name then it can apply the css properties of last written class
+    Here in div1 para we have two names and here css properties are applied of class name (newname) -->
+
+    <!-- TODO We use (.) operator to choose the class and (#) for id in css -->
+
+    <div class="takeanyname newname">This is a div1 para</div> 
+
+    <div class="newname">This is a div2 para</div>
+
+    <div> This is a div2 para</div> 
+
+    <div class="takeanyname">This is a div4 para</div>
+
+    <p class="takeanyname">This is not a div para</p>
+    <p> This is not a div para2</p>
+
+    <p id="paraid">This is a para with id</p>
+
+    <!--* Attribute Selector-->
+    <!-- * Selects all elements that have the given attribute. Syntax: [attr] [attr=value] --> 
+    <input value="abcd">
+    <input disabled value ="bcs">
+    
+</body>
+</html>

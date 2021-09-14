@@ -1,0 +1,28 @@
+
+/* Class Selectors */
+.takeanyname {
+    background-color: pink;
+    font-size: 20pt;
+}
+
+
+.newname {
+    background-color: green;
+    font-weight: bold;
+}
+
+/* Id selectors */
+#paraid {
+    background-color: yellow;
+}
+
+/* Attribute selector */
+input[disabled] {
+    width: 300px;
+    background-color: teal;
+}
+
+/* universal selector */
+* {
+    background-color: tomato;
+}
