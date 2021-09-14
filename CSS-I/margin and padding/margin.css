@@ -1,0 +1,20 @@
+
+/* This padding applied to all four sides. left, right , up , bottom. */
+.box{
+    margin: 20px;
+    padding: 10px;
+    border: dashed 3px;
+}
+
+
+#div1 {
+    background-color: pink;
+}
+
+#div2 {
+    background-color: green;
+}
+
+#div3 {
+    background-color:cyan;
+}
