@@ -7,8 +7,7 @@
 
 
 .newname {
-    background-color: green;
-    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Id selectors */
@@ -24,5 +23,5 @@ input[disabled] {
 
 /* universal selector */
 * {
-    background-color: tomato;
+    background-color: cyan;
 }
