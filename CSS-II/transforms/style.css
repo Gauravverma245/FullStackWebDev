@@ -1,0 +1,38 @@
+div {
+    height: 60px;
+    width: 60px;
+    background-color: hotpink;
+    margin: 30px;
+}
+
+
+/* In scale transform content of element also scales. */
+.one {
+    transform: scale(1.5, 1.5);
+}
+
+.five {
+    transform: rotate(10deg);
+}
+
+
+/* It will move in x direction by 50px then rotate by 45 degree */
+.eight {
+    transform: translateX(50px)  rotate(45deg);
+}
+
+
+/* It will first rotate then its x axis will also be rotated so the direction of 
+x changed and now it will move 50px in x(changed direction) */
+.seven{
+    transform: rotate(45deg) translateX(50px);
+}
+
+
+.three{
+    transform: translate3d(0px, 0px, -250px);
+}
+
+
+
+
