@@ -1,0 +1,29 @@
+div {
+    background-color: brown;
+    margin: 20px;
+    padding: 10px;
+    color: chartreuse;
+    display: inline;
+}
+
+
+/* Any button over which the user's pointer is hovering */
+/* Matches when a user designates an item with 
+a pointing device, for example holding the mouse pointer over it. */
+div:hover{
+    background-color: rebeccapurple;
+}
+
+
+/* Matches when an item is being activated by the user, for example clicked on. */
+
+div:active{
+    background-color: salmon;
+}
+
+/* The :focus selector is used to select the element that has focus.
+Tip: The :focus selector is allowed on elements that accept keyboard 
+events or other user inputs */
+input:focus{
+    background-color: greenyellow;
+}
