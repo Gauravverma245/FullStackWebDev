@@ -1,0 +1,24 @@
+.btn{
+    margin: 100px;
+    background-color: salmon;
+    font-size: 30pt;
+    padding: 30px;
+    color: greenyellow;
+    width: 200px;
+
+
+    box-shadow: indigo 10px 10px 10px;
+    transition: 1s;
+}
+
+
+.btn:hover{
+    transform: translate(50px, 50px);
+    box-shadow: lightseagreen 10px 10px 10px;
+    transition: 0.5s;
+}
+
+.btn:active{
+    box-shadow: maroon 10px 10px 10px;
+    transition: 0.1s;
+}
