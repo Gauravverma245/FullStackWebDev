@@ -29,10 +29,5 @@ x changed and now it will move 50px in x(changed direction) */
 }
 
 
-.three{
-    transform: translate3d(0px, 0px, -250px);
-}
-
-
 
 
